@@ -1,0 +1,17 @@
+/**
+* step 完成关卡需要几步
+* element 关卡中出现哪几种方块类型
+* levelreq 过关条件，每种方块要消除几个
+*/
+{
+    "map": [],
+    "step": 10,
+    "element": [0, 1, 2, 3, 4, 5],
+    "levelreq": [
+        {"type": "3", "num": 6},
+        {"type": "4", "num": 3},
+        {"type": "0", "num": 2},
+        {"type": "2", "num": 2}
+    ],
+    "levelbgimg": "background"
+}
